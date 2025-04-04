@@ -23,7 +23,7 @@ jobs:
     needs: test
     concurrency: deploy-test
     env:
-      AWS_S3_BUCKET_NAME : 'noi-web-automotive-uas'
+      AWS_S3_BUCKET_NAME : 'noi-it-web-automotive-uas'
     steps:
       - name: Checkout source code
         uses: actions/checkout@v2
